@@ -9,6 +9,7 @@ from fastapi.responses import FileResponse
 
 app = FastAPI()
 
+
 db_path = "/Users/yunaotsuki/Documents/BUILD/mercari-build-training/db/mercari.sqlite3"
 
 logger = logging.getLogger("uvicorn")
